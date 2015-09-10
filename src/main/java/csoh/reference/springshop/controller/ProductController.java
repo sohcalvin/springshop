@@ -23,6 +23,15 @@ public class ProductController {
 		return "product";
 	}
 	
-	
+	@RequestMapping(value = "/save", method=RequestMethod.GET)
+	public String save(ModelMap model){
+		Product aproduct = new Product();
+		aproduct.setId(0);
+		aproduct.setName("apple");
+		
+		productService.saveProduct(aproduct);
+		model.addAttribute("message","Saving a product" );
+		return "product";
+	}
 	
 }

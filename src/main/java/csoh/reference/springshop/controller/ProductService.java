@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import csoh.reference.springshop.model.Product;
 
 
-@Service
+
 public interface ProductService {
 	
 	List<Product> listProduct();

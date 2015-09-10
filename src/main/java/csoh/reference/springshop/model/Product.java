@@ -6,7 +6,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "\"com.sap.xs2.samples::AddressBook.Book\"")
+//@Table(name = "\"com.sap.xs2.samples::AddressBook.Book\"")
+@Table(name = "\"PRODUCT\"")
 public class Product {
 
 	@Id
