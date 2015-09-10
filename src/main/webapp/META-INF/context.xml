@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!--  ATTN : the url at localhost:12345 is the chisel client to the proxy app on the cloud -->
+<Resource
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="com.sap.db.jdbc.Driver"
+    factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+    name="jdbc/java-hdi-container"
+    url="jdbc:sap://localhost:12345/?currentschema=7BC76A5FB3D6476CA20C486DE1C51CA2"
+    username='HDI_6060AA98DEC74244AE6B72F313DF8F11'
+    password="u5Z2D1mVulsTSPyQ8ESeX5qUS4dgCEcp"
+    JtaManaged="true"/>
+</Context>
